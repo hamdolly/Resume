@@ -85,7 +85,7 @@
                                 Database: SQL.<br />
 
                                 Programming Languages: TypeScript, PHP, Java.<br />
-                                
+
                                 Other: REST APIs, Git, JSON.<br />
                             </div>
                         </div>
@@ -124,7 +124,11 @@
                     <div class="dept about-me">
                         <div class="dept-header dept-large-header">ABOUT ME</div>
                         <div class="dept-details about-me-details">
-                            Junior Backend Developer with hands-on experience in building RESTful APIs using Node.js, Express.js, and TypeScript. Skilled in backend development concepts, including CRUD operations, database management, authentication, authorization, and request validation. Familiar with SQL and Prisma ORM, with a background in full-stack web development and a focus on building reliable and maintainable backend applications. 
+                            Junior Backend Developer with hands-on experience in building RESTful APIs using Node.js,
+                            Express.js, and TypeScript. Skilled in backend development concepts, including CRUD
+                            operations, database management, authentication, authorization, and request validation.
+                            Familiar with SQL and Prisma ORM, with a background in full-stack web development and a
+                            focus on building reliable and maintainable backend applications.
                         </div>
                     </div>
 
@@ -186,6 +190,18 @@
         var button = document.getElementById("save")
         button.onclick = () => window.print()
     </script>
+
+
+    <script>
+        const isMobile = /Android|iPhone|iPad|iPod/i.test(
+            navigator.userAgent
+        );
+
+        if (isMobile) {
+            window.location.href = "./cv.pdf";
+        }
+    </script>
+
 </body>
 
 </html>
