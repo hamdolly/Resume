@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <title>Resume</title>
+</head>
+
+<body>
+    <header class="header">
+        <button class="save" id="save">Save as <span class="pdf-text">PDF</span></button>
+    </header>
+    <section id="results" class="main-section">
+
+        <section class="A4">
+
+            <div class="name">
+                AHMAD AWLAQI
+            </div>
+
+            <div class="job-name">
+                Junior Full-Stack Developer
+            </div>
+
+            <div class="contact-info">
+                Ahmad_99_20@outlook.com . (966) 544112969 .
+                <a href="https://linkedin.com/in/ahmad-hassan-3a37b425b">linkedin.com/in/ahmad-hassan-3a37b425b .</a>
+                <a href="https://github.com/hamdolly">https://github.com/hamdolly</a>
+            </div>
+
+            <section class="resume-body">
+
+                <section class="left-section">
+
+                    <div class="dept education">
+                        <div class="dept-header dept-small-header">EDUCATION</div>
+
+                        <div class="dept-details">
+
+                            <div id="education-college">
+                                <div class="education-college-level font-m">
+                                    Diploma in Computer
+                                    Programing.
+                                </div>
+                                <div class="education-college-name font-s">
+                                    Yanbu College of Applied
+                                    Technology
+                                </div>
+                                <div class="education-college-study-date font-xs">
+                                    2019 - 2022
+                                </div>
+                            </div>
+
+                            <div class="education-high-school">
+                                <div class="education-high-school-level font-m">
+                                    High school
+                                </div>
+                                <div class="education-high-school-name font-s">
+                                    Anfal High School
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dept skills">
+                            <div class="dept-header dept-small-header">
+                                SKILLS
+                            </div>
+                            <div class="dept-details">
+                                <!-- Web Design | HTML | CSS | JavaScript | React.js | Node.js(express) | capacitorjs | Ionic
+                                |
+                                Typescript | PHP | JAVA | SQL | JSON | JWT | Prisma | Software analysis | Software
+                                engineering | Design
+                                templates for software projects | Problem solving | Electronic design | Computer repair
+                                |
+                                Make a
+                                Network Cable | working under pressure. -->
+                                Backend: Node.js, Express.js, Prisma, JWT, zod.<br />
+
+                                Frontend: HTML, CSS, JavaScript, React.js, Ionic.<br />
+
+                                Database: SQL.<br />
+
+                                Programming Languages: TypeScript, PHP, Java.<br />
+                                
+                                Other: REST APIs, Git, JSON.<br />
+                            </div>
+                        </div>
+
+                        <div class="dept achievements go-to-next">
+                            <div class="dept-header dept-small-header">
+                                ACHIEVEMENTS
+                            </div>
+                            <div class="dept-details">
+                                Technical Vocational
+                                Training Corp (the college)
+                                2022
+                                <span class="achievements-descrip font-s">
+                                    Achieved the best
+                                    graduation project in the
+                                    computer department.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="dept languages">
+                            <div class="dept-header dept-small-header">
+                                LANGUAGES
+                            </div>
+                            <div class="dept dept-details font-l">
+                                Arabic (Original).
+                                <span style="display: block;">English .</span>
+
+                            </div>
+                        </div>
+
+                </section>
+
+                <section class="right-section">
+
+                    <div class="dept about-me">
+                        <div class="dept-header dept-large-header">ABOUT ME</div>
+                        <div class="dept-details about-me-details">
+                            Junior Backend Developer with hands-on experience in building RESTful APIs using Node.js, Express.js, and TypeScript. Skilled in backend development concepts, including CRUD operations, database management, authentication, authorization, and request validation. Familiar with SQL and Prisma ORM, with a background in full-stack web development and a focus on building reliable and maintainable backend applications. 
+                        </div>
+                    </div>
+
+                    <div class="dept experience go-to-next">
+                        <div class="dept-header dept-large-header">
+                            EXPERIENCE
+                        </div>
+                        <div class="dept-details font-l">
+                            Cashier</br>
+                            LULU hypermarket</br></br>
+                            31-12-2023 to 22-05-2024</br></br></br>
+                            Customer service</br>
+                            LULU hypermarket</br></br>
+                            <div class="Currently-date-e">23-05-2024 <span>Currently work</span> </div>
+                        </div>
+                    </div>
+
+                    <div class="dept courses go-to-next">
+                        <div class="dept-header dept-large-header ">
+                            COURSES
+                        </div>
+                        <div class="dept dept-details font-xl">
+                            Applied Diploma in Accounting Management.
+                            <div class="font-s">
+                                Colleges and Institutes in Yanbu
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="dept projects">
+                        <div class="dept-header dept-large-header">
+                            SOFTWARE PROJECTS
+                        </div>
+                        <div class="dept dept-details">
+                            <div class="font-xl projects-details">
+                                Movie Management API (training project)
+                            </div>
+                            <div class="font-s projects-details">
+                                Developed a RESTful API that allows users to manage a movie collection, add movies to
+                                personalized playlists, and organize their content. Implemented backend functionality
+                                using the technologies and concepts learned throughout my backend development journey,
+                                including database management, authentication, authorization, request validation, and
+                                CRUD operations.
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </section>
+
+        </section>
+
+
+
+    </section>
+    <script>
+        var button = document.getElementById("save")
+        button.onclick = () => window.print()
+    </script>
+</body>
+
+</html>
